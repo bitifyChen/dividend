@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "massive-petal-427802-f4",
+  "private_key_id": "83628dde4e51176b02c33c62f4195999d6cc0e18",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCzyEFPuUJ5G1pg\n8apii4q34C8sVZD6BRuQ0sxjtTyQZn/labE1FF1VMldMAbLybUvj5v7u9/ihlPIN\nB+tQbdjP87l2/C6wOj8YcgmvHEqqekOTUewckx+JbEdzqgRVEEmWsJfmdAGTKK6i\n6OJhUD1TGPZdE2YD4wqHFvJGk+RXMgalO+uY2eUjQSyiaBA8aUOjYqOz/8SBqVia\nbz/TbU4fL0XoK9UEsetVONZOJJL3fbkUOdVLW5hTXONuAKZqewEOhae4UH+O8UCY\nlbN50vV6Wt9vG56n4MAVadexjxAzW9WwpA56aXor+KuVAlPufjuiEeOoMJFrZR5I\nd6TX247BAgMBAAECggEAV/Vh/t9k5lu7nDKgahZbiBrm+YnjpG9bTT/VP/Mr7no3\nmMZdLNsJzuUSUN2D75gJyTb7A2/O9T8qLbXyKyeTLCrSUqSPMylMNWmV01bEMSQg\na7NpEZHpnBKd4rkL5ZJSbqd3qgiXvKfqyUmneHUJi95qqp8TClPKks1nO6Cf1wiQ\nk9r6ZD5olUECIcdepXaVHm6XHakJJ4L5iLiBlRQzz8XHcbe24tulRgUjEabiiyJh\nryXj8wVcHQVX8cpOcya8SMY4AAynVqy5axaf7cD1zO//4gEZ2ptMdyOFLJR5meET\n4rDMnzCo9jW4DhCuogSmJi0uWn83mWpRAZ5N4iA5AQKBgQDggZgBvo+C14cY4vdv\nNqX7IrHqf6tttxPg+kCaLOJFYCmwdOyAZAKtT2g+i3wNoL3FsB4fpslp4SKDx03m\nhCJM6OKlqE8VMS/kcrgLLABlfiPwiRfKTUVFZRP3nxtwj8il1zmgb1cKoHOgsl5x\ntFBItZJEjc6Qknp33S5ODy/2CwKBgQDNAIvIpTTSCwL11VYOA4ym3aihmgNLau8i\ntcE3K7wEXwJVIoUCqLZUv3jjNAQUhjs/5dYQZebiCTXc6VznQ/Ebfwm1XaMUwDbB\npHXXR22dq7BxkKx8PpcUWJM42ozeHoH1kVSXTggmrP/RoCStMRVbVRg9ceg+/W+t\nONU5JMoJ4wKBgDGDo3jPBGvBCSSt+hBnJxhKQJ8NZUufUx0NVG4sdAMFAGzQfNCc\nPhLnLoCM1uFSkEgnXZ1xdX6KjsgtjrrGbaI0wrfydO6hmIRz4K9mFvhLZ7XHJp4R\niLOTZWH5j121+HTLEQSXScUoOhg4/qdpM0O19/pypBoylBwXhfzlUJidAoGAMrYz\n3gqgKmV28gE4LHdMT+r9UBydPAbT6S41AcTb2ej21sCXTrUVhZln+ixf5gPenEvq\nzFuo5bmJjYBc7wirmDWw3SCwuu1hnj1kuUB+KUbTewRi5slE7k+K+8F0n23EkE7H\nMjanZYneLqkC6aT+t30xZeHLpeljuuIYPO6Q3CkCgYEAmHQvmY9EFtvSbNhvEBmk\nVzZiveymPXgf1XwrRkSau0Djh3TlnK+NL3ME+VE8ngck0xd5/EiGnVeN0o8RVt/9\n24sHLc6k4mhOjZii34do1IHuu2zqViGprTu9ENsJZHpQ9b4uLGMiwAgf+DwJsdze\n7F4npnErpzzgLJ9Awu7jhlI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "gsheets@massive-petal-427802-f4.iam.gserviceaccount.com",
+  "client_id": "118395834501193408309",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gsheets%40massive-petal-427802-f4.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

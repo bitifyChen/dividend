@@ -1,0 +1,16 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  @apply text-[24px] font-bold xl:text-[48px];
+}
+
+h3 {
+  @apply text-[18px] font-bold  xl:text-[36px];
+}
+
+h4 {
+  @apply text-[14px] font-bold xl:text-[18px];
+}/*# sourceMappingURL=main.css.map */
