@@ -21,6 +21,7 @@ import { chunkSplitPlugin } from 'vite-plugin-chunk-split'
 
 export default ({ mode }) => {
   return defineConfig({
+    base: './',
     resolve: {
       alias: {
         '@': `${resolve(__dirname, 'src')}/`
@@ -76,7 +77,7 @@ export default ({ mode }) => {
           changeOrigin: true,
           secure: false,
           rewrite: (path) => path.replace(/^\/javaApi/, '')
-        },
+        }
       },
       host: '0.0.0.0' // 显示IP位置
     }
