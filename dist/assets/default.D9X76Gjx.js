@@ -1,0 +1,2 @@
+import{d as s,c as n,a as c,b as e,e as l,F as u,r as _,o}from"./index.CW6G0v0J.js";import"./__commonjsHelpers__.Cpj98o6Y.js";const i=s("globalId",{state:()=>({routeKey:0}),actions:{upDateClick(){this.routeKey++}}}),d=e("header",null,"header",-1),p={class:"base-wrap flex-1"},m=e("footer",null,"footer",-1),y={__name:"default",setup(f){const t=i(),a=n(()=>t.routeKey);return(h,b)=>{const r=_("router-view");return o(),c(u,null,[d,e("div",p,[(o(),l(r,{key:a.value}))]),m],64)}}};export{y as default};
+//# sourceMappingURL=default.D9X76Gjx.js.map
