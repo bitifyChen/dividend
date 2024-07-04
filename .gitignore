@@ -13,12 +13,12 @@ components.d*
 i18n.json
 
 node_modules
-dist-ssr
+.DS_Store
+dist
 *.local
 
 # Editor directories and files
 .idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
