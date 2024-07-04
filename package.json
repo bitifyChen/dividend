@@ -8,7 +8,8 @@
     "build": "vite build --mode development",
     "commit": "git-cz",
     "lang": "node GoogleSheetToJson.cjs",
-    "commit-msg": "bash .husky/commit-msg"
+    "commit-msg": "bash .husky/commit-msg",
+    "deploy": "npm run build && node ./deploy/ghpages.cjs"
   },
   "dependencies": {
     "@amcharts/amcharts5": "^5.9.12",
@@ -56,6 +57,7 @@
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-vue": "^9.11.0",
     "flat": "^5.0.2",
+    "gh-pages": "^6.1.1",
     "lint-staged": "^13.2.2",
     "postcss": "^8.4.21",
     "postcss-cli": "^10.1.0",

@@ -1,5 +1,5 @@
 import { resolve } from 'path'
-import { defineConfig, loadEnv } from 'vite'
+import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 // import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
@@ -8,9 +8,9 @@ import {
   VantResolver
 } from 'unplugin-vue-components/resolvers'
 import {
-  dirResolver,
-  DirResolverHelper,
-  AutoGenerateImports
+  // dirResolver,
+  DirResolverHelper
+  // AutoGenerateImports
 } from 'vite-auto-import-resolvers'
 import Pages from 'vite-plugin-pages'
 import Layouts from 'vite-plugin-vue-layouts'
@@ -19,9 +19,9 @@ import removeConsole from 'vite-plugin-remove-console'
 import { compression } from 'vite-plugin-compression2'
 import { chunkSplitPlugin } from 'vite-plugin-chunk-split'
 
-export default ({ mode }) => {
+export default () => {
   return defineConfig({
-    base: './',
+    base: '/dividend/',
     resolve: {
       alias: {
         '@': `${resolve(__dirname, 'src')}/`
@@ -71,14 +71,6 @@ export default ({ mode }) => {
     },
     server: {
       port: 5000, // 启动端口
-      proxy: {
-        '/javaApi': {
-          target: `${loadEnv(mode, process.cwd()).VITE_JAVA_URI}`,
-          changeOrigin: true,
-          secure: false,
-          rewrite: (path) => path.replace(/^\/javaApi/, '')
-        }
-      },
       host: '0.0.0.0' // 显示IP位置
     }
   })
